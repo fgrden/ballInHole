@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    background: #000;
+}
+
+.board-container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#board {
+    height: 95vh;
+    width: 95vw;
+    border: 5px solid red;
+}
+
+#ball {
+    z-index: 10;
+}
+
+.hole {
+    transition: all 0.3s;
+    fill: rgb(0, 0, 191);
+}
+
+.active {
+    fill: rgba(9, 255, 0, 0.6);
+}
+
+.startGame-container {
+    position: fixed;
+}
